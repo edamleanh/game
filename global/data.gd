@@ -12,7 +12,7 @@ const PLANT_DATA = {
 	Enum.Seed.TOMATO: {
 		'texture': "res://graphics/plants/tomato.png",
 		'icon_texture': "res://graphics/icons/tomato.png",
-		'name':'Tomato',
+		'name':'Cà Chua',
 		'h_frames': 3,
 		'grow_speed': 0.6,
 		'death_max': 3,
@@ -20,7 +20,7 @@ const PLANT_DATA = {
 	Enum.Seed.CORN: {
 		'texture': "res://graphics/plants/corn.png",
 		'icon_texture': "res://graphics/icons/corn.png",
-		'name':'Corn',
+		'name':'Ngô',
 		'h_frames': 3,
 		'grow_speed': 1.0,
 		'death_max': 2,
@@ -28,7 +28,7 @@ const PLANT_DATA = {
 	Enum.Seed.PUMPKIN: {
 		'texture': "res://graphics/plants/pumpkin.png",
 		'icon_texture': "res://graphics/icons/pumpkin.png",
-		'name':'Pumpkin',
+		'name':'Bí Ngô',
 		'h_frames': 3,
 		'grow_speed': 0.3,
 		'death_max': 3,
@@ -36,7 +36,7 @@ const PLANT_DATA = {
 	Enum.Seed.WHEAT: {
 		'texture': "res://graphics/plants/wheat.png",
 		'icon_texture': "res://graphics/icons/wheat.png",
-		'name':'Wheat',
+		'name':'Lúa Mì',
 		'h_frames': 3,
 		'grow_speed': 1.0,
 		'death_max': 3,
@@ -44,17 +44,17 @@ const PLANT_DATA = {
 const MACHINE_UPGRADE_COST = {
 	Enum.Machine.DELETE: {},
 	Enum.Machine.SPRINKLER: {
-		'name': 'Sprinkler',
+		'name': 'Vòi Tưới',
 		'cost' :{Enum.Item.TOMATO: 30, Enum.Item.WHEAT: 20},
 		'icon': preload("res://graphics/icons/sprinkler.png"),
 		'color': Color.SEA_GREEN},
 	Enum.Machine.FISHER: {
-		'name': 'Fisher',
+		'name': 'Máy Câu Cá',
 		'cost' :{Enum.Item.WOOD: 25, Enum.Item.FISH: 15},
 		'icon': preload("res://graphics/icons/fisher.png"),
 		'color': Color.SLATE_GRAY},
 	Enum.Machine.SCARECROW: {
-		'name': 'Scarecrow',
+		'name': 'Cối Xay Gió',
 		'cost' : {Enum.Item.PUMPKIN: 15, Enum.Item.CORN: 15},
 		'icon': preload("res://graphics/icons/scarecrow.png"),
 		'color': Color.BURLYWOOD}}
@@ -69,22 +69,22 @@ const STYLE_UPGRADES = {
 		'icon': preload("res://graphics/icons/cowboy.png"),
 		'color': Color.SANDY_BROWN},
 	Enum.Style.ENGLISH: {
-		'name': 'Oldie',
+		'name': 'Vintage',
 		'cost':{Enum.Item.CORN: 8, Enum.Item.WHEAT: 6},
 		'icon': preload("res://graphics/icons/english.png"),
 		'color': Color.LIGHT_GRAY},
 	Enum.Style.BASEBALL: {
-		'name': 'Baseball',
+		'name': 'Bóng Chày',
 		'cost':{Enum.Item.TOMATO: 8, Enum.Item.APPLE: 6},
 		'icon': preload("res://graphics/icons/blue.png"),
 		'color': Color.SKY_BLUE},
 	Enum.Style.BEANIE: {
-		'name': 'Beanie',
+		'name': 'Mũ Len',
 		'cost':{Enum.Item.PUMPKIN: 8, Enum.Item.WHEAT: 6},
 		'icon': preload("res://graphics/icons/beanie.png"),
 		'color': Color.INDIAN_RED},
 	Enum.Style.STRAW: {
-		'name': 'Straw',
+		'name': 'Rơm',
 		'cost':{Enum.Item.FISH: 8, Enum.Item.WOOD: 6},
 		'icon': preload("res://graphics/icons/straw.png"),
 		'color': Color.BURLYWOOD}}

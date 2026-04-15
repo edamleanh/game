@@ -1227,16 +1227,16 @@ position = Vector2(232, 224)
 
 [node name="Character" parent="Objects" instance=ExtResource("11_mq31s")]
 position = Vector2(524, 177)
-dialog = Array[String](["I am the hat mouse", "State your business!"])
-fin_dialog = "You have purchased all the hats!"
+dialog = Array[String](["Tôi là chuột bán mũ", "Bạn muốn gì?"])
+fin_dialog = "Bạn đã mua hết tất cả các kiểu mũ!"
 texture = ExtResource("12_b8j7q")
 shop_type = 1
 has_fin_animation = true
 
 [node name="Character2" parent="Objects" instance=ExtResource("11_mq31s")]
 position = Vector2(-40, 535)
-dialog = Array[String](["I sell machines! ", "What would you like?"])
-fin_dialog = "Well done! :)"
+dialog = Array[String](["Tôi bán các máy móc!", "Bạn cần gì?"])
+fin_dialog = "Tuyệt vời! :)"
 texture = ExtResource("13_qhnmj")
 
 [node name="Overlay" type="Node2D" parent="."]
