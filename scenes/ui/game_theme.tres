@@ -1,5 +1,6 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://rhcgh2v8xs3h"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://rhcgh2v8xs3h"]
 
+[ext_resource type="FontFile" uid="uid://noto_sans_regular" path="res://graphics/fonts/NotoSans-Regular.ttf" id="1_noto_regular"]
 [ext_resource type="Texture2D" uid="uid://c8w5bgiupw84o" path="res://graphics/ui/frame.png" id="2_6q0ak"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5x5vq"]
@@ -16,9 +17,9 @@ content_margin_right = 4.0
 content_margin_bottom = 4.0
 bg_color = Color(0.90588236, 0.90588236, 0.90588236, 1)
 
-[sub_resource type="SystemFont" id="SystemFont_vietnam"]
-font_names = PackedStringArray("Noto Sans", "Arial", "Liberation Sans")
-font_sizes = PackedInt32Array(30)
+[sub_resource type="FontVariation" id="FontVariation_noto"]
+base_font = ExtResource("1_noto_regular")
+spacing_glyph = 1
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6q0ak"]
 bg_color = Color(1, 1, 1, 1)
@@ -36,6 +37,6 @@ FocusPanel/base_type = &"Panel"
 FocusPanel/styles/panel = SubResource("StyleBoxFlat_5x5vq")
 Label/colors/font_color = Color(0.023529412, 0.023529412, 0.023529412, 1)
 Label/font_sizes/font_size = 30
-Label/fonts/font = SubResource("SystemFont_vietnam")
+Label/fonts/font = SubResource("FontVariation_noto")
 Panel/styles/panel = SubResource("StyleBoxFlat_6q0ak")
 PanelContainer/styles/panel = SubResource("StyleBoxTexture_6naka")
